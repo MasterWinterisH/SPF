@@ -36,5 +36,8 @@ def stærkPrimtalFinder(a,b):
         stærkePrimtal.append(p)
     return stærkePrimtal
 
-print(stærkPrimtalFinder(2000,3000))
+lower = int(input("Nedre grænse?"))
+upper = int(input("Øvre grænse?"))
+
+print(stærkPrimtalFinder(lower,upper))
         
